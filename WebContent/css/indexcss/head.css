@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    font-family:"宋体","微软雅黑",arial,sans-serif;
+    height:1000px;
+}
+
+.headtitle {
+    background: #9966cc;
+    height: 60px;
+}
+
+.tabletitle {
+    height: 80%;
+    width: 1000px;
+    margin: 0 auto;
+
+}
+
+.directory {
+    float: right;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.directory li {
+    display: inline;
+    padding: 20px;
+    color: white;
+}
+
+#login {
+    color: #FFF;
+}
+
+#logoch {
+    position: absolute;
+    top: 0;
+}
+
+.headtitle a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.headtitle a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.headtitle a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:link {
+    color: #000;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #000;
+    background-color: #B3D4FC;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}

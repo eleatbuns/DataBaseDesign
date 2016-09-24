@@ -1,0 +1,40 @@
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    margin: 0 auto;
+    background-color: #727272;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.bottomtable {
+    height: 60%;
+    margin: 0 auto;
+}
+
+.footdir {
+    margin: 0;
+    padding: 0;
+}
+
+.footdir li {
+    display: inline;
+    text-align: center;
+    color: #fff;
+}
+
+.footdir a:link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footdir a:visited {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footdir a:hover {
+    color: #fff;
+    text-decoration: none;
+}

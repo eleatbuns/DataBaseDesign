@@ -1,0 +1,90 @@
+#loghtml {
+    width: 800px;
+    height: 600px;
+    border: 1px solid #b3d4fc;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+}
+
+#leftlogin {
+    width: 378px;
+    float: left;
+    border-right: dashed 1px #bfbfbf;
+}
+
+#login {
+    visibility: hidden;
+}
+
+.defaulterror {
+    font-size: x-small;
+    color: red;
+}
+
+.logReg {
+    line-height: 50px;
+    font-size: x-large;
+    height: 50px;
+    color: #bfbfbf;
+    text-align: center;
+    margin-top: 0;
+}
+
+.lognamepas p {
+    padding-left: 55px;
+    line-height: 20px;
+    height: 10px;
+    margin-top: 20px;
+}
+
+#logtitle {
+    padding-left: 10px;
+    line-height: 50px;
+    font-size: x-large;
+    width: 790px;
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #dbcbb8;
+    margin-top: 0;
+}
+
+.lognamepas {
+    text-align: center;
+    line-height: 50px;
+}
+
+.lognamepas p {
+    text-align: left;
+}
+
+.logsub {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 80px;
+    height: 30px;
+    font-size: larger;
+}
+
+#rightregister {
+    width: 420px;
+    float: right;
+    display: block;
+}
+
+.username {
+    width: 250px;
+}
+
+.passname {
+    width: 250px;
+}
+
+#confirmpwd {
+    width: 230px;
+    padding-right: 3px;
+}
+/* input{ */
+/* 	color:#9199aa */
+/* } */

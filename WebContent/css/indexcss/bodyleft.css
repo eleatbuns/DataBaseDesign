@@ -1,0 +1,52 @@
+#bodyleft {
+    margin-top: 20px;
+    width: 590px;
+    height: 500px;
+}
+
+.option {
+    background-color: #bfbfbf;
+    width: 120px;
+    font-size: larger;
+    text-align: center;
+}
+
+.lefttable a {
+    display: inline-block;
+    padding: 6px 10px;
+
+}
+
+.lefttable caption {
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.section {
+    width: 540px;
+    background-color: #bfdbb8;
+}
+
+.provinceyear {
+    width: 150px;
+    font-size: larger;
+    text-align: center;
+}
+
+.provinceyear select {
+    width: 60px;
+}
+
+.wenli {
+    width: 90px;
+    text-align: center;
+}
+
+.wenli label {
+    font-size: x-large;;
+}
+
+.grade {
+    width: 380px;
+    background-color: #FFFFFF;
+}

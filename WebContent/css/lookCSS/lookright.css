@@ -1,0 +1,45 @@
+#bodyleft {
+    margin: 0 auto;
+    width: 1000px;
+    height: 320px;
+}
+
+#lookbody {
+    float: left;
+}
+
+#lookright {
+    width: 300px;
+    float: right;
+}
+
+#lookbottom {
+    width: 1000px;
+    margin: 0 auto;
+	
+}
+
+#looktable{
+	border:1px solid #808080;
+	background:#f8f8f8;
+}
+
+#lookbottom table td {
+    width: 300px;
+    text-align: center;
+}
+.text{
+/* 	text-align: center; */
+    list-style-type: none;
+   	padding-left:0;
+   	margin-top:5px;
+}
+.text li{
+	float:left;
+	margin:8px;
+	cursor:pointer
+}
+.selected{
+	color: #fff;
+    background: #c3bed4;
+}

@@ -1,0 +1,106 @@
+.mid{
+    width: 300px;
+    height: 50px;
+    border:1px solid blue;
+    margin:10px auto;
+    background: #dbcbb8;
+    text-align: center;
+   
+
+}
+.mid h3{
+    margin-top:10px;
+    cursor: pointer;
+}
+
+.delself{
+	position:fixed;
+	width:30px;
+	text-align:center;
+	background:#dbcbb8;
+	margin-top:-120px;
+	
+}
+.delself label{
+	font-family: "宋体", "微软雅黑", arial, sans-serif;
+	font-size: large;
+	cursor: pointer;
+}
+
+.manager{
+    width: 600px;
+    margin:0 auto;
+    text-align: center;
+    display:none;
+}
+.manager h4{
+    text-align: center;
+}
+.manager label{
+    font-family: "宋体", "微软雅黑", arial, sans-serif;
+    font-size: larger;
+}
+.addMan{
+    width:100px;
+}
+#warning{
+	color:red;
+	display:none;
+}
+
+.userMess 
+{
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+	display:none;
+}
+
+#Useroption{
+	width:200px;
+	font-size:18px;
+}
+.Messoption{
+	width:550px;
+	height:190px;
+	border:1px solid black;
+	float:right;
+
+}
+.changeschool{
+	width:1000px;
+	margin:0 auto;
+	text-align:center;
+	display:none;
+}
+
+.scdiv1{
+	width:130px;
+	height:35px;
+	background:#ff8080;
+	padding-top:5px;
+	margin:5px 5px;
+	display:inline-block;
+ 	
+}
+.scdiv1 h4{
+	margin-top:5px;
+	cursor: pointer;
+}
+.indiv{
+	text-align:center;
+}
+
+.changegrade{
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+	display:none;
+}
+#indiv1{
+	display:none;
+}
+#indiv2{
+	display:none;
+}
+

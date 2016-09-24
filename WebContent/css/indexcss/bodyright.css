@@ -1,0 +1,33 @@
+#bodyright {
+    margin-top: 25px;
+    width: 360px;
+    height: 400px;
+    float: right;
+}
+
+#input-grade {
+    width: 50px;
+}
+
+#input-mingci {
+    width: 80px;
+}
+
+.submit {
+    text-align: center;
+}
+
+.submit input {
+    height: 25px;
+    width: 100px;
+}
+
+.choice {
+    color: #495a80;
+    font-size: x-large;
+}
+
+.righttable {
+    width: 360px;
+    border: dotted 1px #add9c0;
+}

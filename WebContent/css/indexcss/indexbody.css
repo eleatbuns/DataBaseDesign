@@ -1,0 +1,65 @@
+#bodytop {
+    width: 1000px;
+    height: 150px;
+    position: relative;
+    z-index: 0;
+    margin: 0;
+    padding: 0;
+
+}
+
+#bodytop ul {
+    display: inline-block;
+    float: left;
+}
+
+#top {
+    background-color: #dbcbb8;
+}
+
+#toppic {
+    padding: 0;
+    text-align: center;
+    margin-left: 200px;
+    list-style-type: none;
+}
+
+#secpic {
+    margin-left: 50px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#thipic {
+    margin-left: 50px;
+    text-align: center;
+    list-style-type: none;
+}
+
+#bodytop label {
+    color: #FFFFFF;
+}
+
+.pic1 {
+    position: absolute;
+    z-index: 10;
+    top: 50px;;
+    left: 230px;
+
+}
+
+.pic2 {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 450px;
+}
+
+.pic3 {
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 670px;
+}
+
+

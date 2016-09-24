@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>高考π——登陆注册</title>
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="../img/icon.ico" rel="shortcut icon" />
+<link rel="stylesheet" type="text/css" href="../css/indexcss/head.css" />
+<link rel="stylesheet" type="text/css" href="../css/logincss/login.css" />
+<link rel="stylesheet" type="text/css" href="../css/indexcss/foot.css" />
+<script src="../js/login.js"></script>
+
+</head>
+<body style="font-family:arial,sans-serif;">
+	<!--共同报头-->
+	<div class="headtitle">
+		<table class="tabletitle" align="center">
+			<tr>
+				<td><img src="../img/gaokao.png" alt="高考π" /><img id="logoch"
+					src="../img/gaokaopai.png" alt="高考π" /></td>
+				<td>
+					<ul class="directory">
+						<li><a href="index.jsp"><img src="../img/home.png"
+								style="vertical-align: text-bottom" />首页</a></li>
+						<li><a href="index.jsp#position"><img
+								src="../img/checkData.png" style="vertical-align: text-bottom" />查数据</a></li>
+						<li><a href="choiceSchool.jsp?province=&grade=&mingci=&Schprovince=&wenli="><img src="../img/grade.png"
+								style="vertical-align: text-bottom" />估分选大学</a></li>
+						<li><a href="application.jsp"><img src="../img/applyfor.png"
+								style="vertical-align: text-bottom" />志愿模拟填报</a></li>
+					</ul>
+				</td>
+				<td align="right"><img src="../img/people.png"
+					style="vertical-align: text-bottom" /><label id="login">登录/注册</label></td>
+			</tr>
+		</table>
+	</div>
+	<hr style="border-top: 0 #C7FFED dotted" />
+	<div id="loghtml">
+		<p id="logtitle">高考π用户登录</p>
+		<div id="leftlogin">
+			<h3 class="logReg">登录</h3>
+
+			<form class="lognamepas" name="log" method="post"
+				action="../jsp/login.jsp">
+				<p>用户名</p>
+				<label><input type="text" class="username" id="logname"
+					name="logname"
+					placeholder = "用户名由英文、数字、下划线组成"
+					onkeyup="checklogname()" /></label>				
+				<p>密&nbsp;&nbsp;&nbsp;&nbsp;码</p>
+				<label><input type="password" class="passname"
+					name="logpassword" placeholder="请输入您的密码" /></label>			 
+				<input class="logsub"type="submit" value="登录">
+			</form>
+		</div>
+		
+		<div id="rightregister">
+			<p class="logReg">注册</p> 
+			<form class="lognamepas" method="POST" action="../jsp/register.jsp">
+				<label>用户名：<input type="text" class="username" id="reginame"
+					name="username" onkeyup="checkRegistername();"
+					placeholder = "用户名由英文、数字、下划线组成" /></label> 
+				<br /> 
+				<label>昵&nbsp;&nbsp;&nbsp;&nbsp;称：
+				<input type="text" class="username" name="nickname" placeholder = "请输入您的昵称"/></label>
+				<br /> 
+				<label>密&nbsp;&nbsp;&nbsp;&nbsp;码：
+				<input type="password" class="passname" name="password" id="password" placeholder = "请输入您的密码" /></label> 
+				<br />
+				<label>确认密码：
+				<input type="password" name="password2" id="confirmpwd"
+					placeholder="请确认您的密码" onchange="checkConfirmPWD()" /></label>
+				 <label><input class="logsub" type="submit" value="注册"onclick="checkConfirmPWD()"></label>
+			</form>
+
+		</div>
+	</div>
+	<hr style="border-top: 0 #C7FFED dotted" width="1000px" />
+	<footer class="footer">
+		<table class="bottomtable">
+			<tr>
+				<td>
+					<ul class="footdir">
+						<li><a href="">关于我们</a> |</li>
+						<li><a href="">联系我们</a> |</li>
+						<li><a href="">反馈建议</a> |</li>
+						<li><a href="">帮助中心</a></li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td>Copyright&copy;2016sdu gaoli版权所有</td>
+			</tr>
+		</table>
+	</footer>
+</body>
+</html>
